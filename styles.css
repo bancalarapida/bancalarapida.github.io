@@ -1,0 +1,109 @@
+#principal {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto; 
+    height: 768px;
+    width: 1024px;
+  }
+
+#premiosGrande {
+    display: none;
+    height: 768px;
+    width: 1024px;
+  }
+
+#fila0 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 25% 50% 25%;
+    
+    
+}
+ #fila {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+#box1, #box2, 
+#box3, #box4, #box5, #box6, 
+#box7, #box8, #box9, #box10,
+#box11, #box12, #box13, #box14,
+#box15, #box16, #box17, #box18, 
+#boxG{
+    height: 100%;
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    border: 5px solid #000000
+  }
+#logoloteria {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+#logo {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(18, 16, 168);
+    border: 5px solid #000700
+    
+}
+
+#premios {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: space-evenly;
+    align-content: center;
+   
+    
+}
+#bolo {
+    height: 100%;
+    width: 100%;
+
+}
+#fecha {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family:verdana;
+    font-size:14;
+    text-align:center;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    
+  }
+#pre {
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size:50;
+    top: 60%;
+    left: 57%;
+    transform: translate(-60%, -60%);
+
+}
+#preG {
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size:200;
+    top: 60%;
+    left: 57%;
+    transform: translate(-60%, -60%);
+
+}
