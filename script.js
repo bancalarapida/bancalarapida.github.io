@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 }else{
                                     premiosText[i].style["background-image"] = "url('IMG/BolaBlanca.webp')"
                                 }
-                                premiosText[i].innerHTML = premios[i]
+                                premiosText[i].innerHTML = premios[i].replace("100", "00")
                             },retardo + (++k * q)) 
                             
                         } 
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         for (let i = 0; i < 3; i++) {
             setTimeout(() => {
-                document.querySelectorAll("#premiosGrande #pre")[i].innerHTML = premios[i]
+                document.querySelectorAll("#premiosGrande #pre")[i].innerHTML = premios[i].replace("100", "00")
             },(++k * q))
 
         }
