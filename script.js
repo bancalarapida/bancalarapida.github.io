@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     function cuadroDefault(cuadro){
         cuadro.style["background-image"] = ""
-        cuadro.querySelector("#logoloteria").style["background-color"] = "rgb(255, 255, 255)"
+        cuadro.querySelector("#logoloteria").style["background-color"] = "rgb(240, 240, 240)"
         //cuadro.querySelector("#logoloteria").src = ""
         //cuadro.querySelector("#logoloteria").style["display"] = "none"
         for (let i = 0; i < 3; i++) {
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
         objectDate.setDate(objectDate.getDate() - 1)
         let fechaAyer = fecha(objectDate)
         
-        fetch("https://bclrpd.github.io/")
+        fetch("https://bclrpd.github.io/", {cache: "no-store"})
         //fetch("http://172.16.15.103:8000/premios.ini", {cache: "no-store"})
             .then((res) => res.text())
             .then((text) => {
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         premios =nopremios.split(",")
                     }
                     
-                    let retardo = 100 + (t++ * 200)
+                    let retardo = 100 + (t++ * 850)
                                                
                     setTimeout(() => {
                         let k = 0
@@ -133,7 +133,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                 premiosLogo.style["background-color"] = "rgb(239, 245, 43)"
                                 
                             }else{
-                                premiosLogo.style["background-color"] = "rgb(255, 255, 255)"
+                                premiosCuadro.style["background-color"] = "rgb(220, 220, 220)"
+                                premiosLogo.style["background-color"] = "rgb(220, 220, 220)" 
                             }
                         },retardo + (++k * q))
 
@@ -235,7 +236,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     cargarDatos()
-    setInterval(cargarDatos, 40000)
+    setInterval(cargarDatos, 60000)
     //cargarDatos()
     //premiosGrandes("q real", "25,48,93")
 
