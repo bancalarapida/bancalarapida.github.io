@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
         objectDate.setDate(objectDate.getDate() - 1)
         let fechaAyer = fecha(objectDate)
         
-        fetch("https://bclrpd.github.io/")
+        fetch("https://bclrpd.github.io/", {cache: "no-store"})
         //fetch("http://172.16.15.103:8000/premios.ini")
             .then((res) => res.text())
             .then((text) => {
