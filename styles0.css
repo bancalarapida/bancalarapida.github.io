@@ -17,8 +17,6 @@
     grid-template-columns: 25% 50% 25%;
     
     
-    
-    
 }
  #fila {
     display: grid;
@@ -26,10 +24,10 @@
     
 }
 #box1, #box2, 
-#box3, #box4, #box5, 
-#box6, #box7, #box8, 
-#box9, #box10, #box11, 
-#box12, #box13, #box14, 
+#box3, #box4, #box5, #box6, 
+#box7, #box8, #box9, #box10,
+#box11, #box12, #box13, #box14,
+#box15, #box16, #box17, #box18, 
 #boxG{
     height: 100%;
     width:100%;
@@ -39,30 +37,6 @@
     grid-template-rows: 30% 70%;
     border: 5px solid #000000
   }
-
-#boxANG {
-    height:392%;
-    width:100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: grid;
-    grid-template-rows: repeat(14, 7.14286%);
-    /*grid-template-rows: 7% 93%;*/
-    border: 5px solid #000000
-}
-
-#box15, #box16, #box17, #box18, #box19, #box20, 
-#box21, #box22, #box23, #box24, #box25, #box26, 
-#box27 {
-    height: 100%;
-    width:100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    /*border: 5px solid #000000*/
-}
-
 #logoloteria {
     height: 100%;
     width: 100%;
@@ -111,41 +85,6 @@
     background-size: cover
 
 }
-
-#principal #boxANG #pre {
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size:30;
-    top: 50%;
-    left: 70%;
-    transform: translate(-60%, -50%);
-    background-image: url('');
-    background-size: cover
-
-}
-
-#horaANG {
-    position: absolute;
-    height: 40px;
-    width: 80px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size:30;
-    top: 50%;
-    left: 40%;
-    transform: translate(-36.8%, -50%);
-    background-image: url('');
-    background-size: cover
-
-}
-
 #premiosGrande #pre {
     position: absolute;
     height: 325px;

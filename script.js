@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelector("#premiosGrande #logoloteria").style["background-color"] = "rgb(239, 245, 43)" 
         },(++k * q))
         setTimeout(() => {
-            document.querySelector("#premiosGrande").style["background-image"] = "url('IMG/c.gif')"
+            document.querySelector("#premiosGrande").style["background-image"] = "url('IMG/c.webp')"
         },(++k * q))
 
         setTimeout(() => {
