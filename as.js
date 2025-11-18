@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     
+    
     const loterias =  {box1:"fl tarde", box2:"fl noche",
         box3:"la primera 12pm", box4:"la suerte 12.30pm", box5:"q real", box6:"nac t",
         box7:"la primera 8pm", box8:"la suerte 6pm", box9:"q pale", box10:"nac n",
@@ -250,4 +251,5 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
           
+
 })
