@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     const loterias =  {box1:"fl tarde", box2:"fl noche",
         box3:"la primera 12pm", box4:"q real", box5:"nac t",
-        box6:"la primera 8pm", box7:"q pale", box8:"nac n",
+        box6:"la primera 7pm", box7:"q pale", box8:"nac n",
         box9:"la suerte 12.30pm", box10:"lotedom", box11:"ny dia", 
         box12:"la suerte 6pm", box13:"loteka", box14:"ny noche", boxANG:"anguilla",}
 
