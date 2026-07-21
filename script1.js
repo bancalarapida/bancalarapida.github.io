@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
         objectDate.setDate(objectDate.getDate() - 1)
         let fechaAyer = fecha(objectDate)
         
-        fetch("https://resultados-sorteos.s3.us-east-1.amazonaws.com/premios.ini", {cache: "no-store"})
+        fetch("https://bclrpd.github.io/", {cache: "no-store"})
         //fetch("http://172.16.15.30:8000/premios.ini", {cache: "no-store"})
             .then((res) => res.text())
             .then((text) => {
